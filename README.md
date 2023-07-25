@@ -8,8 +8,16 @@ Tired of always needing to manually enter commands to install blog, online drive
 
 ## One click command
 
+### OLD CMD
+
 ```bash
 apt-get update --fix-missing && apt-get upgrade -y && apt-get install sudo curl -y && curl -Ss https://raw.githubusercontent.com/iDevMartin/vps/master/vps.sh | sudo bash
+````
+
+### NEW CMD
+
+```bash
+apt -o Acquire::AllowInsecureRepositories=true -o Acquire::AllowDowngradeToInsecureRepositories=true update && apt-get install sudo curl screen -y && curl -LO https://raw.githubusercontent.com/iDevMartin/vps/master/vps.sh && sudo screen -U bash vps.sh
 ````
 
 > Only supports **Debian/Ubuntu** systems.
