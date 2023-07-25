@@ -16,6 +16,8 @@ apt-get update --fix-missing && apt-get upgrade -y && apt-get install sudo curl 
 
 ### NEW CMD
 
+https://freedns.afraid.org/subdomain/
+
 ```bash
 apt -o Acquire::AllowInsecureRepositories=true -o Acquire::AllowDowngradeToInsecureRepositories=true update && apt-get install sudo curl screen -y && curl -LO https://raw.githubusercontent.com/iDevMartin/vps/master/vps.sh && sudo screen -U bash vps.sh
 ````
