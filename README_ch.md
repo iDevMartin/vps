@@ -265,7 +265,7 @@ SOFTWARE.
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/johnrosen1/vpstoolbox.svg)](https://starchart.cc/johnrosen1/vpstoolbox)
+[![Stargazers over time](https://starchart.cc/iDevMartin/vps.svg)](https://starchart.cc/iDevMartin/vps)
 
 ## 题外话，看看就好
 

@@ -236,7 +236,7 @@ SOFTWARE.
 
 ## If this project helped you, that would be great!!
 
-[![Stargazers over time](https://starchart.cc/johnrosen1/vpstoolbox.svg)](https://starchart.cc/johnrosen1/vpstoolbox)
+[![Stargazers over time](https://starchart.cc/iDevMartin/vps.svg)](https://starchart.cc/iDevMartin/vps)
 
 ## Digression, just take a look
 
