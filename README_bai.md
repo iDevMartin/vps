@@ -56,7 +56,7 @@
 
 ## 使用脚本搭建 博客和代理
 
-1. 连接成功后，输入`apt-get update --fix-missing && apt-get install sudo curl -y && curl -Ss https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/vps.sh | sudo bash` 进行安装工作。
+1. 连接成功后，输入`apt-get update --fix-missing && apt-get install sudo curl -y && curl -Ss https://raw.githubusercontent.com/iDevMartin/vps/master/vps.sh | sudo bash` 进行安装工作。
 2. 脚本会进行初始化工作，完成后会看到以下页面。
 ![main1](images/main1.png)
 3. 选择第一个，点击回车，会看到如下页面。

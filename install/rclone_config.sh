@@ -2,7 +2,7 @@
 
 ## 全自动Rclone配置模组  Auto Rclone config moudle
 
-## 使用方法: curl -Ss https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/rclone_config.sh | sudo bash
+## 使用方法: curl -Ss https://raw.githubusercontent.com/iDevMartin/vps/master/install/rclone_config.sh | sudo bash
 
 #---Author Info---
 ver="1.0.0"

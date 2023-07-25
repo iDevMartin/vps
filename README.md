@@ -11,14 +11,14 @@
 ## 一键命令 One click command
 
 ```bash
-apt -o Acquire::AllowInsecureRepositories=true -o Acquire::AllowDowngradeToInsecureRepositories=true update && apt-get install sudo curl screen -y && curl -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/vps.sh && sudo screen -U bash vps.sh
+apt -o Acquire::AllowInsecureRepositories=true -o Acquire::AllowDowngradeToInsecureRepositories=true update && apt-get install sudo curl screen -y && curl -LO https://raw.githubusercontent.com/iDevMartin/vps/master/vps.sh && sudo screen -U bash vps.sh
 ```
 
 > 仅支援 **Debian/Ubuntu** 系统。
 
 ## 流程图
 
-![流程图](https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/images/flow.svg)
+![流程图](https://raw.githubusercontent.com/iDevMartin/vps/master/images/flow.svg)
 
 ## 路由测试
 
@@ -26,14 +26,14 @@ apt -o Acquire::AllowInsecureRepositories=true -o Acquire::AllowDowngradeToInsec
 
 手动测试方法
 ```bash
-curl --retry 5 -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/route.sh
+curl --retry 5 -LO https://raw.githubusercontent.com/iDevMartin/vps/master/install/route.sh
 source route.sh
 route_test
 ```
 
 ## Demo
 
-![demo](https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/images/demo.png)
+![demo](https://raw.githubusercontent.com/iDevMartin/vps/master/images/demo.png)
 
 ## 前提条件及使用要点 Usage instruction
 
@@ -198,11 +198,11 @@ cat /root/.trojan/letcron.log
 3. **Commit** 修改
 4. **Push** 到你自己的 Fork
 5. 提交**Pull request**
-6. PR 要求请看[**pr 要求**](https://github.com/johnrosen1/vpstoolbox/tree/dev/install)
+6. PR 要求请看[**pr 要求**](https://github.com/iDevMartin/vps/tree/dev/install)
 
 ## Bug 反馈以及 Feature request
 
-- [x] [Github Issue](https://github.com/johnrosen1/vpstoolbox/issues)
+- [x] [Github Issue](https://github.com/iDevMartin/vps/issues)
 - [x] [TG 群组](https://t.me/vpstoolbox_chat)
 
 注：
